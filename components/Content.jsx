@@ -1,4 +1,6 @@
 import React from 'react'
+import TwoSpacedRec from './TwoSpacedRec'
+import OneSpacedRec from './OneSpacedRec'
 
 function Content() {
   return (
@@ -14,7 +16,15 @@ function Content() {
         </p>
 
         <div className="h-[390px] w-[430px] border border-[#D47E7E] bg-[#802525] mx-auto mt-[12px] rounded-[15px]">
+          
+          <h1 className="text-center font-medium opacity-50 text-[10px] text-[#FFA7A7] pt-[15px]">
+            Calculate the price of your boost.
+          </h1>
 
+          <div>
+          <TwoSpacedRec />
+
+          </div>
         </div>
     </div>
   )
